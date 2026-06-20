@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Daily Habit Tracker 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application built to practice React fundamentals including JSX, Components, and Props.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* Display daily habits
+* Show completion status
+* Reusable HabitCard component
+* Dynamic rendering using props
+* Clean and responsive UI
 
-### `npm start`
+## Concepts Learned
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### JSX
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Used JSX to create UI elements in a readable HTML-like syntax.
 
-### `npm test`
+### Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Created a reusable `HabitCard` component to display habit information.
 
-### `npm run build`
+### Props
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Passed habit details from the parent component (`App.js`) to child components (`HabitCard.js`) using props.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Dynamic Rendering
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Rendered multiple habits using arrays and the `map()` function.
 
-### `npm run eject`
+## Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```text
+src/
+├── App.js
+├── HabitCard.js
+└── App.css
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Sample Habits
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* DSA Practice
+* React Learning
+* Aptitude Preparation
+* Mock Interview
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshot
 
-## Learn More
+Add your project screenshot here.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```md
+![Output](./screenshots/output_1.png)
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How to Run
 
-### Code Splitting
+```bash
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Open:
 
-### Analyzing the Bundle Size
+```text
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Future Improvements
 
-### Making a Progressive Web App
+* Add React State
+* Add habit creation form
+* Add local storage
+* Add progress statistics
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Varsha
+B.Tech CSE
+React Learning Journey - Day 1
