@@ -30,12 +30,10 @@ Rendered multiple habits using arrays and the `map()` function.
 
 ## Project Structure
 
-```text
 src/
 ├── App.js
 ├── HabitCard.js
 └── App.css
-```
 
 ## Sample Habits
 
@@ -46,9 +44,9 @@ src/
 
 ## Screenshot
 
-Add your project screenshot here.
+Added my project screenshot here.
 
-![Output](C:\Users\varsha\OneDrive\Desktop\learning react js\my-app\screenshots\output_1.png)
+![Output](./screenshots/output_1.png)
 
 ## How to Run
 
