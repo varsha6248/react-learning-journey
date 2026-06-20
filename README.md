@@ -48,22 +48,16 @@ src/
 
 Add your project screenshot here.
 
-```md
 ![Output](C:\Users\varsha\OneDrive\Desktop\learning react js\my-app\screenshots\output_1.png)
-```
 
 ## How to Run
 
-```bash
 npm install
 npm start
-```
 
 Open:
 
-```text
 http://localhost:3000
-```
 
 ## Future Improvements
 
