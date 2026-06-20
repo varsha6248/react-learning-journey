@@ -49,7 +49,7 @@ src/
 Add your project screenshot here.
 
 ```md
-![Output](./screenshots/output_1.png)
+![Output](C:\Users\varsha\OneDrive\Desktop\learning react js\my-app\screenshots\output_1.png)
 ```
 
 ## How to Run
