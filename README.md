@@ -14,6 +14,7 @@ A simple React application built to practice React fundamentals including JSX, C
 
 ### JSX
 
+
 Used JSX to create UI elements in a readable HTML-like syntax.
 
 
