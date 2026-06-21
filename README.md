@@ -16,6 +16,8 @@ A simple React application built to practice React fundamentals including JSX, C
 
 Used JSX to create UI elements in a readable HTML-like syntax.
 
+
+
 ### Components
 
 Created a reusable `HabitCard` component to display habit information.
