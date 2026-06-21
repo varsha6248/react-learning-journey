@@ -14,7 +14,7 @@ function HabitTrack(props){
             </p>
 
             <p>
-                Time:{props.time}
+                Time Period:{props.time}
             </p>
         </div>
     );
