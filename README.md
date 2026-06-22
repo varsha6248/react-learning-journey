@@ -26,6 +26,7 @@ Created a reusable `HabitCard` component to display habit information.
 ### Props
 
 Passed habit details from the parent component (`App.js`) to child components (`HabitCard.js`) using props.
+### functional Components
 
 ### Dynamic Rendering
 
@@ -74,4 +75,4 @@ http://localhost:3000
 
 Varsha
 B.Tech CSE
-React Learning Journey - Day 1
+React Learning Journey - Day 2

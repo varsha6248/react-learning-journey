@@ -1,23 +1,32 @@
-import React from 'react';
-function HabitTrack(props){
-    return(
-        <div className="card">
-            <h2>{props.habit}</h2>
+import React, { useState } from "react";
 
-            <p>
-                <span style={{color:props.completed?"green":"red",fontweight:"bold",marginLeft:"5px"}}>
-                Status:
-                {
-                    props.completed ? "Completed":"Pending"
-                }
-                </span>
-            </p>
+function HabitTrack(props) {
+  const [completed, setCompleted] = useState(props.completed);
 
-            <p>
-                Time Period:{props.time}
-            </p>
-        </div>
-    );
+  return (
+    <div className="card">
+      <h2>{props.habit}</h2>
+
+      <p>
+        <span
+          style={{
+            color: completed ? "green" : "red",
+            fontWeight: "bold"
+          }}
+        >
+          Status: {completed ? "Completed" : "Pending"}
+        </span>
+      </p>
+
+      <p>Time Period: {props.time}</p>
+
+      {!completed && (
+        <button onClick={() => setCompleted(true)}>
+          Complete
+        </button>
+      )}
+    </div>
+  );
 }
 
 export default HabitTrack;
