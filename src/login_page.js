@@ -25,7 +25,6 @@ function Login() {
 //**React keeps the old values and updates only one field. */
   const handleSubmit = (e) => {
     e.preventDefault();
-
     if (
       !formData.name ||
       !formData.email ||
