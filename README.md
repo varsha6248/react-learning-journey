@@ -93,10 +93,4 @@ http://localhost:3000
 * Connect Form with Backend API
 * Display Submitted Records in a Table
 
-## Author
 
-Varsha
-
-B.Tech CSE
-
-React Learning Journey - Forms Practice
